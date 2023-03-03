@@ -4,6 +4,7 @@ import {producto} from "../../data";
 import { useParams } from "react-router-dom";
 
 
+
 export const ItemListContainer = () => {
     const [data, setData] = useState([]);
     const {categoriaid} = useParams();
@@ -23,7 +24,7 @@ export const ItemListContainer = () => {
 
     return (
         <div className="product-card-container">
-            <ItemList data = {data}/>
+            <ItemList data = {data}/>            
         </div>
     )
 };
