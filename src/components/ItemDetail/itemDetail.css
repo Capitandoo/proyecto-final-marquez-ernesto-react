@@ -1,32 +1,29 @@
-.product-card-container {
+.tarjeta {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 50px;
     text-align: center;
 }
 
-.card {
-    margin: 50px;
-}
-
-.card img {
+.tarjeta img {
     width: 200px;
     height: 200px;
 }
 
-.card button {
-    border: none;
-    outline: 0;
-    padding: 10px;
-    color: white;
+.compra {
     background-color: #1bcb7f;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    width: fit-content;
 }
 
-.card button:hover {
+.compra:hover {
     opacity: 0.7;
 }
+
