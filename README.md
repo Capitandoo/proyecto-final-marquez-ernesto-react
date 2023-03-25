@@ -5,6 +5,7 @@ Este proyecto trata de un e-commerce relacionado con el skin care, una práctica
 ## Escalabilidad
 
 Proyecto escalable y de fácil integración con cualquier sistema que requiera un e-commerce.
+Integrado con Firebase.
 
 ## Libreria utilizada
 

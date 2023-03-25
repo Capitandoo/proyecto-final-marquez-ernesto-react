@@ -6,4 +6,4 @@ const ItemList = ({data = []}) => {
   )
 }
 
-export default ItemList
+export default ItemList;

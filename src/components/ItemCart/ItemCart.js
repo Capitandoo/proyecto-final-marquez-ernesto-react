@@ -20,4 +20,4 @@ const ItemCart = ({product}) => {
   )
 }
 
-export default ItemCart
+export default ItemCart;

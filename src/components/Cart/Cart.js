@@ -1,5 +1,4 @@
 import React from 'react'
-//import {addDoc, collection, getFirestore} from "firebase/firestore";
 import { useCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 import ItemCart from '../ItemCart/ItemCart';
@@ -27,4 +26,4 @@ const Cart = () => {
     )
 }
 
-export default Cart
+export default Cart;
